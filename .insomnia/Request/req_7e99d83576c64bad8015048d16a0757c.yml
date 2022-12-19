@@ -1,0 +1,129 @@
+_id: req_7e99d83576c64bad8015048d16a0757c
+type: Request
+parentId: wrk_49c107a6616142a89a352cefa43d6b20
+modified: 1671440570798
+created: 1671439607810
+url: "{{ _.base_path }}/TpuAbsencesSL/query"
+name: TpuAbsencesSL
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: hierarchy
+    disabled: false
+    value: "false"
+    id: pair_2a1e0c21f52b49d1a31a8cf5239c7015
+  - name: criteria
+    disabled: true
+    value: string
+    id: pair_5f747c637471470c9d7ca827f86fcbf8
+  - name: filter
+    disabled: true
+    value: string
+    id: pair_d04bbd46a7e243deaad240ad485ce978
+  - name: columns
+    disabled: false
+    value: ERS_PK_PERS, ERS_PERS_KODS, ABS_DAT_FROM, ABS_DAT_TO, PSADM_PK_ADM,
+      AISLP_PK_PERS, AISLP_PERS_KODS, ABS_DOC_ID
+    id: pair_35e6ddefb29848bb92ac73f152bc0e46
+    type: text
+    multiline: true
+  - name: orderby
+    disabled: true
+    value: string
+    id: pair_76c2673c69a2456b91bed0fd33c62c63
+  - name: limit
+    disabled: false
+    value: "10"
+    id: pair_12fc19782dd346698e51793135e24b8c
+  - name: FILTERBY_PK
+    disabled: true
+    value: "0"
+    id: pair_dd27cb8f91b94078a64d5418157947e1
+  - name: PK_PERS
+    disabled: true
+    value: "0"
+    id: pair_8821533d060347f39d54622e9cda776c
+  - name: PK_LIGA
+    disabled: true
+    value: "0"
+    id: pair_38545bcdb6c043959a9c74fb49dc4de9
+  - name: PK_STATS
+    disabled: true
+    value: "0"
+    id: pair_1fd48583318c44648b1983c9fe7ce08f
+  - name: BEIG_DAT
+    disabled: true
+    value: string
+    id: pair_b6abf61275744682a16e53fdb8720309
+  - name: SAK_DAT
+    disabled: true
+    value: string
+    id: pair_2342946814f64e3195f3bcf4b3a3fa76
+  - name: VCP_ALGIZM
+    disabled: true
+    value: "0"
+    id: pair_ffa413e9c0c5438da167d379ff07663c
+  - name: PK_VAD
+    disabled: true
+    value: "0"
+    id: pair_fb1dad8d5a5844fcac27d470e138db3d
+  - name: PK_VADARPAP
+    disabled: true
+    value: "0"
+    id: pair_f606d31b159a441988a8334895769734
+  - name: PK_STRVAD
+    disabled: true
+    value: "0"
+    id: pair_51ff73bd2e7145878ee00c7a841e42d0
+  - name: PK_STRVADPAD
+    disabled: true
+    value: "0"
+    id: pair_4a4457824165443e832e4eb0f8f49fa4
+  - name: PK_PATSPADOTAIS
+    disabled: true
+    value: "0"
+    id: pair_c813bd0be35b4a25b0dafce20834c4a5
+  - name: PK_PADOTAIS
+    disabled: true
+    value: "0"
+    id: pair_c99158296f5c40c68c9c9bdb90e82078
+  - name: PK_ADM
+    disabled: true
+    value: "0"
+    id: pair_ac63ae6aa68c413aa3c7b122635fd0f0
+  - name: PK_PLANVIEN
+    disabled: true
+    value: "0"
+    id: pair_95cbce1a4b3943f09257128b67cb0def
+  - name: LIDZ_DAT
+    disabled: true
+    value: string
+    id: pair_3e293701852e4151af6c78a6f0d98c46
+  - name: NO_DAT
+    disabled: true
+    value: string
+    id: pair_ef4679badc5049eaa25d5fa7016abbc2
+  - name: TNUM
+    disabled: true
+    value: string
+    id: pair_18d7f27ec48f4a01ab163399d620a34b
+  - name: NEFILTRET
+    disabled: true
+    value: "0"
+    id: pair_19142c65924b4a10a0b86738be9f9534
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.username }}"
+  password: "{{ _.password }}"
+metaSortKey: -1669669219643.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
